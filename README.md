@@ -2,6 +2,6 @@
 Creating automated test for each member of the group using a  Selenium. We will be testing Hackernoon Login page.
 
 ##Group Member
-**Lawal Hammed Tunde
-**Olumide Agbaje
-**Aminat Atanda-Lawal
+-Lawal Hammed Tunde
+-Olumide Agbaje
+-Aminat Atanda-Lawal
