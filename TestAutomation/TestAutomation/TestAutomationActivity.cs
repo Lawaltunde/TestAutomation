@@ -18,8 +18,12 @@ namespace TestAutomation
             webDriver.Navigate().GoToUrl("https://hackernoon.com/");
 
 
-            //First Test:validating the login link
+            //First Test: validating the login link
             webDriver.FindElement(By.ClassName("sc-b3d23cc4-0 biyRsJ")).Click();
+
+            //Second Test: Validating the email address
+            webDriver.FindElement(By.Id("email")).SendKey("A00276443@mycambrian.ca");
+
 
         }
     }
