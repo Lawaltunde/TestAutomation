@@ -24,6 +24,9 @@ namespace TestAutomation
             //Second Test: Validating the email address
             webDriver.FindElement(By.Id("email")).SendKey("A00276443@mycambrian.ca");
 
+            //Third Test: Validating the password
+            webDriver.FindElement(By.Id("password")).SendKey("Password123");
+
 
         }
     }
