@@ -30,7 +30,7 @@ namespace TestAutomation
                 //Third Test: Validating the password of the website
                 webDriver.FindElement(By.Id("password")).SendKeys("Password123");
 
-                //Fourth Test: Validating the login button class="sc-629a08f7-5 kmfnwX"
+                //Fourth Test: Validating the login button 
                 webDriver.FindElement(By.ClassName("sc-629a08f7-5")).Click();
 
             }
